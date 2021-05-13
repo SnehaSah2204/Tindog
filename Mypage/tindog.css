@@ -1,0 +1,183 @@
+body{
+  font-family: 'Montserrat, sans-serif';
+  box-sizing: border-box; 
+    
+}
+#title{
+    background-color: #ff4c68;
+
+}
+.mheading h1{
+  font-family: 'Montserrat, sans-serif'; 
+   font-size: 3rem;  
+   line-height: 1.5; 
+    font-weight: 900;
+    color: white;
+    font-weight: bold;
+}
+.mheading{
+    margin-top: 4.5rem;
+}
+.container-fluid{
+    padding: 2.5% 15% 7%;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+ font-family: 'Ubuntu', sans-serif; 
+}
+.navul{
+    margin-left: 70%;
+}
+.phoneimg
+{
+    /* height: 200px; */
+    width: 22%;
+    transform: rotate(25deg);
+    margin-left: 6%;
+    top: 22%;
+    position: absolute;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-size: 1.2rem;
+  font-family: 'Montserrat, sans-serif'; 
+  font-weight: lighter;
+}
+.mheading button{
+    margin: 5% 3% 5% 0%;
+}
+#features{
+    padding: 15% 15%;
+    text-align: center;
+    /* margin-top: 4.5%; */
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.featuresbox i{
+    color: #ef8172;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.featuresbox i:hover{
+    color: #ff4c68;
+}
+
+.featuresbox h3{
+    font-weight: bold;
+    text-align: center;
+    padding: 3%;
+}
+.featuresbox p{
+    text-align: center;
+    padding: 3%;
+    color: #8f8f8f;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color:#ef8172 ;
+}
+.testi h2{
+    color: white;
+    font-family: 'Montserrat, sans-serif'; 
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testi img{
+    
+    display: block;
+    border-radius: 100%;
+    width: 13%;
+    margin: 2% auto ;
+}
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.pressicons img{
+    width: 12%;
+    margin: 15px 30px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.pricingtable{
+    padding: 100px;
+    text-align: center;
+}
+.pricingtable h2{
+    font-family: 'Montserrat, sans-serif'; 
+    font-weight: bold;
+    /* text-align: left; */
+    font-size: 2.5rem;
+    line-height: 1.5;  
+}
+
+.pricingtable p{
+    color: #8f8f8f;
+    margin-bottom: 6%;
+    line-height: 0.9rem;
+}
+.pricing-table{
+    padding: 3%;
+    margin-right: 0%;
+}
+.card-body{
+    text-align: center;
+}
+.card{
+    border: 1px solid gray;
+}
+.card:hover{
+    border: 2px solid black;
+}
+.endi{
+    background-color: #ff4c68;
+    padding: 5% 17%;
+    text-align: center;
+}
+.endi h3{
+    font-family: 'Montserrat, sans-serif'; 
+   font-size: 3rem;  
+   line-height: 1.5; 
+    font-weight: 900;
+    color: white;
+    font-weight: bold;
+}
+.endbutton{
+    margin: 5% 2%;
+}
+#footer{
+padding: 7%;
+text-align: center;
+}
+.mera-foot i{
+margin: 1.5%;
+color: darkgray;
+font-size: 1.5rem;
+}
+.mera-foot p{
+    margin: 1.5%;
+    color: darkgray;
+    font-size: 1rem;
+    }
+@media (max-width:991px){
+
+    .phoneimg
+{
+    /* height: 200px; */
+    width: 30%;
+    transform: rotate(0);
+    margin-left: 0%;
+    position: static;
+}
+#title{
+    text-align: center;
+}
+}
